@@ -53,6 +53,4 @@ public class StudentController {
                                                              @RequestBody Map<String, Object> updates) {
         return ResponseEntity.ok(studentService.updateStudentPartially(id, updates));
     }
-
-
 }
